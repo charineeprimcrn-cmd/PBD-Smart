@@ -140,7 +140,7 @@ size_z = {size[2]}"""
         return None
 
 # Main Streamlit UI
-st.title("PBD Smart Grid 🧬 ")
+st.title("PDB Smart Grid 🧬 ")
 st.markdown("""
 This application helps you generate grid box configurations for molecular docking.
 Upload a PDB file and choose between blind docking or targeted docking based on specific residues.
@@ -227,7 +227,7 @@ if uploaded_file:
 # Information in sidebar
 st.sidebar.header("About us")
 st.sidebar.markdown("""
-We are Huster. We hopes this tool will helps you generate grid box configurations for molecular docking.
+We hopes this tool will helps you generate grid box configurations for molecular docking.
 
 
 
@@ -237,6 +237,7 @@ We are Huster. We hopes this tool will helps you generate grid box configuration
 3. If targeted, specify residues in the format 'Chain:ResidueNumber'
 4. Click "Generate Grid Configuration"
 5. Download the configuration file
+
 
 
 This tool is particularly useful for preparing files for AutoDock Vina and similar molecular docking software.
